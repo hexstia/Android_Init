@@ -1,0 +1,616 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+.INSTALLED	Android.mk	/^ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \\$/;"	m
+ARRAY_SIZE	util.h	23;"	d
+AW_BOOST_UP_CPUS	boostup.c	31;"	d	file:
+AW_BOOST_UP_CPUS_NORMAL	boostup.c	37;"	d	file:
+AW_BOOST_UP_CPUS_NORMAL	boostup.c	41;"	d	file:
+AW_BOOST_UP_CPUS_NORMAL	boostup.c	45;"	d	file:
+AW_BOOST_UP_CPUS_PERF	boostup.c	36;"	d	file:
+AW_BOOST_UP_CPUS_PERF	boostup.c	40;"	d	file:
+AW_BOOST_UP_CPUS_PERF	boostup.c	44;"	d	file:
+AW_BOOST_UP_CPUS_VIDEO	boostup.c	38;"	d	file:
+AW_BOOST_UP_CPUS_VIDEO	boostup.c	42;"	d	file:
+AW_BOOST_UP_CPUS_VIDEO	boostup.c	46;"	d	file:
+AW_BOOST_UP_DRAM	boostup.c	30;"	d	file:
+AW_BOOST_UP_DRAM_4KLOCALVIDEO	boostup.c	54;"	d	file:
+AW_BOOST_UP_DRAM_BGMUSIC	boostup.c	53;"	d	file:
+AW_BOOST_UP_DRAM_DEFAULT	boostup.c	50;"	d	file:
+AW_BOOST_UP_DRAM_HOME	boostup.c	51;"	d	file:
+AW_BOOST_UP_DRAM_LOCALVIDEO	boostup.c	52;"	d	file:
+AW_BOOST_UP_GPU	boostup.c	33;"	d	file:
+AW_BOOST_UP_GPU_4KLOCALVIDEO	boostup.c	61;"	d	file:
+AW_BOOST_UP_GPU_BGMUSIC	boostup.c	60;"	d	file:
+AW_BOOST_UP_GPU_DEFAULT	boostup.c	57;"	d	file:
+AW_BOOST_UP_GPU_HOME	boostup.c	58;"	d	file:
+AW_BOOST_UP_GPU_LOCALVIDEO	boostup.c	59;"	d	file:
+AW_BOOST_UP_GPU_PERF	boostup.c	62;"	d	file:
+AW_BOOST_UP_TASK	boostup.c	32;"	d	file:
+BOOST_UP_DEBUG	boostup.c	/^static bool BOOST_UP_DEBUG = true;$/;"	v	file:
+BOOTCHART	bootchart.h	21;"	d
+BOOTCHART_DEFAULT_TIME_SEC	bootchart.h	31;"	d
+BOOTCHART_MAX_TIME_SEC	bootchart.h	32;"	d
+BOOTCHART_POLLING_MS	bootchart.h	30;"	d
+COMMAND	init_parser.c	52;"	d	file:
+COMMAND_RETRY_TIMEOUT	init.h	85;"	d
+CONFIG_MEM_FILE	init_mem_opt.c	179;"	d	file:
+CRITICAL_CRASH_THRESHOLD	signal_handler.c	41;"	d	file:
+CRITICAL_CRASH_WINDOW	signal_handler.c	42;"	d	file:
+DATA_MNT_POINT	builtins.c	444;"	d	file:
+DEVNAME_UEVENT_DEVNAME	ueventd.h	/^        DEVNAME_UEVENT_DEVNAME,$/;"	e	enum:ueventd_subsystem::__anon3
+DEVNAME_UEVENT_DEVPATH	ueventd.h	/^        DEVNAME_UEVENT_DEVPATH,$/;"	e	enum:ueventd_subsystem::__anon3
+DEVNAME_UNKNOWN	ueventd.h	/^        DEVNAME_UNKNOWN = 0,$/;"	e	enum:ueventd_subsystem::__anon3
+DEVPATH_LEN	devices.c	641;"	d	file:
+DEV_NAME	watchdogd.c	27;"	d	file:
+DISP_SYS_NODE	init_mem_opt.c	83;"	d	file:
+DUMP	parser.c	/^void DUMP(void)$/;"	f
+ENV	init.c	/^static const char *ENV[32];$/;"	v	file:
+ERROR	log.h	22;"	d
+FILE_BUFF_SIZE	bootchart.c	78;"	d	file:
+FIRMWARE_DIR1	devices.c	54;"	d	file:
+FIRMWARE_DIR2	devices.c	55;"	d	file:
+FIRMWARE_DIR3	devices.c	56;"	d	file:
+FileBuff	bootchart.c	/^} FileBuffRec, *FileBuff;$/;"	t	typeref:struct:__anon1	file:
+FileBuffRec	bootchart.c	/^} FileBuffRec, *FileBuff;$/;"	t	typeref:struct:__anon1	file:
+INFO	log.h	24;"	d
+INIT_BINARY	Android.mk	/^$(SYMLINKS): INIT_BINARY := $(LOCAL_MODULE)$/;"	m
+INIT_PARSER_MAXARGS	init_parser.h	20;"	d
+KERNEL_OPTION	bootchart.c	318;"	d	file:
+KEYWORD	init_parser.c	57;"	d	file:
+KEYWORD	init_parser.c	69;"	d	file:
+KEYWORD	keywords.h	/^    KEYWORD(capability,  OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(chdir,       COMMAND, 1, do_chdir)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(chmod,       COMMAND, 2, do_chmod)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(chown,       COMMAND, 2, do_chown)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(chroot,      COMMAND, 1, do_chroot)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(class,       OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(class_reset, COMMAND, 1, do_class_reset)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(class_start, COMMAND, 1, do_class_start)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(class_stop,  COMMAND, 1, do_class_stop)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(console,     OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(copy,        COMMAND, 2, do_copy)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(critical,    OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(disabled,    OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(domainname,  COMMAND, 1, do_domainname)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(enable,      COMMAND, 1, do_enable)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(exec,        COMMAND, 1, do_exec)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(export,      COMMAND, 2, do_export)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(format_userdata,      COMMAND, 1, do_format_userdata)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(group,       OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(hostname,    COMMAND, 1, do_hostname)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(ifup,        COMMAND, 1, do_ifup)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(import,      SECTION, 1, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(insmod,      COMMAND, 1, do_insmod)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(ioprio,      OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(keycodes,    OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(load_all_props,        COMMAND, 0, do_load_all_props)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(load_persist_props,    COMMAND, 0, do_load_persist_props)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(loglevel,    COMMAND, 1, do_loglevel)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(mkdir,       COMMAND, 1, do_mkdir)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(mount,       COMMAND, 3, do_mount)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(mount_all,   COMMAND, 1, do_mount_all)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(on,          SECTION, 0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(oneshot,     OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(onrestart,   OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(powerctl,    COMMAND, 1, do_powerctl)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(restart,     COMMAND, 1, do_restart)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(restorecon,  COMMAND, 1, do_restorecon)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(restorecon_recursive,  COMMAND, 1, do_restorecon_recursive)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(rm,          COMMAND, 1, do_rm)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(rmdir,       COMMAND, 1, do_rmdir)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(seclabel,    OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(service,     SECTION, 0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(setcon,      COMMAND, 1, do_setcon)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(setenforce,  COMMAND, 1, do_setenforce)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(setenv,      OPTION,  2, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(setkey,      COMMAND, 0, do_setkey)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(setprop,     COMMAND, 2, do_setprop)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(setrlimit,   COMMAND, 3, do_setrlimit)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(setsebool,   COMMAND, 2, do_setsebool)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(socket,      OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(start,       COMMAND, 1, do_start)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(stop,        COMMAND, 1, do_stop)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(swapon_all,  COMMAND, 1, do_swapon_all)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(symlink,     COMMAND, 1, do_symlink)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(sysclktz,    COMMAND, 1, do_sysclktz)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(trigger,     COMMAND, 1, do_trigger)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(user,        OPTION,  0, 0)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(wait,        COMMAND, 1, do_wait)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	/^    KEYWORD(write,       COMMAND, 2, do_write)$/;"	e	enum:__anon8
+KEYWORD	keywords.h	113;"	d
+KEYWORD	keywords.h	46;"	d
+KEYWORD	ueventd_keywords.h	/^    KEYWORD(devname,        OPTION,     1)$/;"	e	enum:__anon2
+KEYWORD	ueventd_keywords.h	/^    KEYWORD(dirname,        OPTION,     1)$/;"	e	enum:__anon2
+KEYWORD	ueventd_keywords.h	/^    KEYWORD(subsystem,      SECTION,    1)$/;"	e	enum:__anon2
+KEYWORD	ueventd_keywords.h	14;"	d
+KEYWORD	ueventd_keywords.h	3;"	d
+KEYWORD	ueventd_parser.c	40;"	d	file:
+KEYWORD	ueventd_parser.c	51;"	d	file:
+KEYWORD_COUNT	keywords.h	/^    KEYWORD_COUNT,$/;"	e	enum:__anon8
+KEYWORD_COUNT	ueventd_keywords.h	/^    KEYWORD_COUNT,$/;"	e	enum:__anon2
+K_UNKNOWN	keywords.h	/^    K_UNKNOWN,$/;"	e	enum:__anon8
+K_UNKNOWN	ueventd_keywords.h	/^    K_UNKNOWN,$/;"	e	enum:__anon2
+LCD_X_STR	init_mem_opt.c	81;"	d	file:
+LCD_Y_STR	init_mem_opt.c	82;"	d	file:
+LOCAL_FORCE_STATIC_EXECUTABLE	Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= init$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT)$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= \\$/;"	m
+LOCAL_STATIC_LIBRARIES	Android.mk	/^LOCAL_STATIC_LIBRARIES := \\$/;"	m
+LOCAL_UNSTRIPPED_PATH	Android.mk	/^LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_UNSTRIPPED)$/;"	m
+LOG_ACCT	bootchart.c	44;"	d	file:
+LOG_DISK	bootchart.c	42;"	d	file:
+LOG_HEADER	bootchart.c	43;"	d	file:
+LOG_PROCS	bootchart.c	41;"	d	file:
+LOG_ROOT	bootchart.c	39;"	d	file:
+LOG_STARTFILE	bootchart.c	46;"	d	file:
+LOG_STAT	bootchart.c	40;"	d	file:
+LOG_STOPFILE	bootchart.c	47;"	d	file:
+MAX_MTD_PARTITIONS	util.c	193;"	d	file:
+MAX_PARAMETERS	builtins.c	258;"	d	file:
+MEMINFO_NODE	init_mem_opt.c	54;"	d	file:
+NOTICE	log.h	23;"	d
+NR_SVC_SUPP_GIDS	init.h	83;"	d
+OPTION	init_parser.c	53;"	d	file:
+OPTION	ueventd_parser.c	36;"	d	file:
+PARSER_H_	parser.h	18;"	d
+PERSISTENT_PROPERTY_DIR	property_service.c	52;"	d	file:
+RAW	parser.c	8;"	d	file:
+SAMPLE_PERIOD	bootchart.c	38;"	d	file:
+SCRIPT_BUF_SIZE	init_mem_opt.c	84;"	d	file:
+SECTION	init_parser.c	51;"	d	file:
+SECTION	ueventd_parser.c	35;"	d	file:
+SVC_CONSOLE	init.h	75;"	d
+SVC_CRITICAL	init.h	76;"	d
+SVC_DISABLED	init.h	71;"	d
+SVC_DISABLED_START	init.h	81;"	d
+SVC_ONESHOT	init.h	72;"	d
+SVC_RC_DISABLED	init.h	79;"	d
+SVC_RESET	init.h	77;"	d
+SVC_RESTART	init.h	80;"	d
+SVC_RESTARTING	init.h	74;"	d
+SVC_RUNNING	init.h	73;"	d
+SYMLINKS	Android.mk	/^SYMLINKS := \\$/;"	m
+SYSFS_PREFIX	devices.c	53;"	d	file:
+T_EOF	parser.h	20;"	d
+T_NEWLINE	parser.h	22;"	d
+T_TEXT	parser.h	21;"	d
+UEVENTD_PARSER_MAXARGS	ueventd_parser.h	22;"	d
+UEVENT_MSG_LEN	devices.c	945;"	d	file:
+UNUSED	devices.c	51;"	d	file:
+VERSION	bootchart.c	37;"	d	file:
+_BOOTCHART_H	bootchart.h	18;"	d
+_INIT_DEVICES_H	devices.h	18;"	d
+_INIT_INIT_H	init.h	18;"	d
+_INIT_INIT_PARSER_H_	init_parser.h	18;"	d
+_INIT_KEYCHORDS_H_	keychords.h	18;"	d
+_INIT_LOG_H_	log.h	18;"	d
+_INIT_PROPERTY_H	property_service.h	18;"	d
+_INIT_SIGNAL_HANDLER_H_	signal_handler.h	18;"	d
+_INIT_UEVENTD_H_	ueventd.h	18;"	d
+_INIT_UEVENTD_PARSER_H_	ueventd_parser.h	18;"	d
+_INIT_UTIL_H_	util.h	18;"	d
+_INIT_WATCHDOGD_H_	watchdogd.h	18;"	d
+_REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_	property_service.c	33;"	d	file:
+__MAKE_KEYWORD_ENUM__	keywords.h	112;"	d
+__MAKE_KEYWORD_ENUM__	keywords.h	45;"	d
+__MAKE_KEYWORD_ENUM__	ueventd_keywords.h	13;"	d
+__MAKE_KEYWORD_ENUM__	ueventd_keywords.h	2;"	d
+__ifupdown	builtins.c	/^static int __ifupdown(const char *interface, int up)$/;"	f	file:
+__property_get	property_service.c	/^int __property_get(const char *name, char *value)$/;"	f
+_chmod	builtins.c	/^static int _chmod(const char *path, mode_t mode)$/;"	f	file:
+_chown	builtins.c	/^static int _chown(const char *path, unsigned int uid, unsigned int gid)$/;"	f	file:
+_open	builtins.c	/^static int _open(const char *path)$/;"	f	file:
+action	devices.c	/^    const char *action;$/;"	m	struct:uevent	file:
+action	init.h	/^struct action {$/;"	s
+action_add_queue_tail	init_parser.c	/^void action_add_queue_tail(struct action *act)$/;"	f
+action_for_each_trigger	init_parser.c	/^void action_for_each_trigger(const char *trigger,$/;"	f
+action_queue_empty	init_parser.c	/^int action_queue_empty()$/;"	f
+action_remove_queue_head	init_parser.c	/^struct action *action_remove_queue_head(void)$/;"	f
+add_dev_perms	devices.c	/^int add_dev_perms(const char *name, const char *attr,$/;"	f
+add_environment	init.c	/^int add_environment(const char *key, const char *val)$/;"	f
+add_platform_device	devices.c	/^static void add_platform_device(const char *path)$/;"	f	file:
+add_service_keycodes	keychords.c	/^void add_service_keycodes(struct service *svc)$/;"	f
+alist	init.h	/^    struct listnode alist;$/;"	m	struct:action	typeref:struct:action::listnode
+android_name_to_id	util.c	/^static unsigned int android_name_to_id(const char *name)$/;"	f	file:
+args	init.h	/^    char *args[1];$/;"	m	struct:command
+args	init.h	/^    char *args[1];$/;"	m	struct:service
+assemble_devpath	devices.c	/^static bool assemble_devpath(char *devpath, const char *dirname,$/;"	f	file:
+attr	devices.c	/^    char *attr;$/;"	m	struct:perms_	file:
+audit_callback	init.c	/^static int audit_callback(void *data, security_class_t cls __attribute__((unused)), char *buf, size_t len)$/;"	f	file:
+aw_boost_up_perf	boostup.c	/^int aw_boost_up_perf(const char *name, const char *value)$/;"	f
+aw_get_para	boostup.c	/^static int aw_get_para(const char *value, int *pid, unsigned int *index)$/;"	f	file:
+aw_init_boostup	boostup.c	/^int aw_init_boostup(int mode)$/;"	f
+aw_init_runmode	property_service.c	/^static int aw_init_runmode(void)$/;"	f	file:
+boost_up_cpus_fd	boostup.c	/^static int boost_up_cpus_fd = -1;$/;"	v	file:
+boost_up_dram_fd	boostup.c	/^static int boost_up_dram_fd = -1;$/;"	v	file:
+boost_up_gpu_fd	boostup.c	/^static int boost_up_gpu_fd = -1;$/;"	v	file:
+boost_up_task_fd	boostup.c	/^static int boost_up_task_fd = -1;$/;"	v	file:
+bootchart_count	init.c	/^static int   bootchart_count;$/;"	v	file:
+bootchart_finish	bootchart.c	/^void  bootchart_finish( void )$/;"	f
+bootchart_init	bootchart.c	/^int   bootchart_init( void )$/;"	f
+bootchart_init_action	init.c	/^static int bootchart_init_action(int nargs, char **args)$/;"	f	file:
+bootchart_step	bootchart.c	/^int  bootchart_step( void )$/;"	f
+bootmode	init.c	/^static char bootmode[32];$/;"	v	file:
+check_control_mac_perms	property_service.c	/^static int check_control_mac_perms(const char *name, char *sctx)$/;"	f	file:
+check_mac_perms	property_service.c	/^static int check_mac_perms(const char *name, char *sctx)$/;"	f	file:
+check_perms	property_service.c	/^static int check_perms(const char *name, char *sctx)$/;"	f	file:
+classname	init.h	/^    const char *classname;$/;"	m	struct:service
+clist	init.h	/^    struct listnode clist;$/;"	m	struct:command	typeref:struct:command::listnode
+close_on_exec	bootchart.c	/^close_on_exec(int  fd)$/;"	f	file:
+coldboot	devices.c	/^static void coldboot(const char *path)$/;"	f	file:
+coldboot_done	util.h	/^static const char *coldboot_done = "\/dev\/.coldboot_done";$/;"	v
+command	init.h	/^struct command$/;"	s
+command_queue	init.c	/^static struct listnode *command_queue = NULL;$/;"	v	typeref:struct:listnode	file:
+commands	init.h	/^    struct listnode commands;$/;"	m	struct:action	typeref:struct:action::listnode
+config_item	init_mem_opt.c	/^void config_item(char *buf)$/;"	f
+console	init.c	/^static char console[32];$/;"	v	file:
+console_init_action	init.c	/^static int console_init_action(int nargs, char **args)$/;"	f	file:
+console_name	init.c	/^static char console_name[PROP_VALUE_MAX] = "\/dev\/console";$/;"	v	file:
+context	parser.h	/^    void *context;$/;"	m	struct:parse_state
+count	bootchart.c	/^    int   count;$/;"	m	struct:__anon1	file:
+create_socket	util.c	/^int create_socket(const char *name, int type, mode_t perm, uid_t uid,$/;"	f
+cur_action	init.c	/^static struct action *cur_action = NULL;$/;"	v	typeref:struct:action	file:
+cur_command	init.c	/^static struct command *cur_command = NULL;$/;"	v	typeref:struct:command	file:
+current	init.h	/^    struct command *current;$/;"	m	struct:action	typeref:struct:action::command
+data	bootchart.c	/^    char  data[FILE_BUFF_SIZE];$/;"	m	struct:__anon1	file:
+decode_uid	util.c	/^unsigned int decode_uid(const char *s)$/;"	f
+device_fd	devices.c	/^static int device_fd = -1;$/;"	v	file:
+device_init	devices.c	/^void device_init(void)$/;"	f
+device_name	devices.c	/^    const char *device_name;$/;"	m	struct:uevent	file:
+devname_src	ueventd.h	/^    } devname_src;$/;"	m	struct:ueventd_subsystem	typeref:enum:ueventd_subsystem::__anon3
+dirname	ueventd.h	/^    const char *dirname;$/;"	m	struct:ueventd_subsystem
+do_chdir	builtins.c	/^int do_chdir(int nargs, char **args)$/;"	f
+do_chmod	builtins.c	/^int do_chmod(int nargs, char **args) {$/;"	f
+do_chown	builtins.c	/^int do_chown(int nargs, char **args) {$/;"	f
+do_chroot	builtins.c	/^int do_chroot(int nargs, char **args)$/;"	f
+do_class_reset	builtins.c	/^int do_class_reset(int nargs, char **args)$/;"	f
+do_class_start	builtins.c	/^int do_class_start(int nargs, char **args)$/;"	f
+do_class_stop	builtins.c	/^int do_class_stop(int nargs, char **args)$/;"	f
+do_coldboot	devices.c	/^static void do_coldboot(DIR *d)$/;"	f	file:
+do_copy	builtins.c	/^int do_copy(int nargs, char **args)$/;"	f
+do_domainname	builtins.c	/^int do_domainname(int nargs, char **args)$/;"	f
+do_enable	builtins.c	/^int do_enable(int nargs, char **args)$/;"	f
+do_exec	builtins.c	/^int do_exec(int nargs, char **args)$/;"	f
+do_export	builtins.c	/^int do_export(int nargs, char **args)$/;"	f
+do_format_userdata	builtins.c	/^int do_format_userdata(int nargs, char **args)$/;"	f
+do_hostname	builtins.c	/^int do_hostname(int nargs, char **args)$/;"	f
+do_ifup	builtins.c	/^int do_ifup(int nargs, char **args)$/;"	f
+do_insmod	builtins.c	/^int do_insmod(int nargs, char **args)$/;"	f
+do_insmod_inner	builtins.c	/^static int do_insmod_inner(int nargs, char **args, int opt_len)$/;"	f	file:
+do_load_all_props	builtins.c	/^int do_load_all_props(int nargs, char **args) {$/;"	f
+do_load_persist_props	builtins.c	/^int do_load_persist_props(int nargs, char **args) {$/;"	f
+do_log_file	bootchart.c	/^do_log_file(FileBuff  log, const char*  procfile)$/;"	f	file:
+do_log_ln	bootchart.c	/^do_log_ln(FileBuff  log)$/;"	f	file:
+do_log_procs	bootchart.c	/^do_log_procs(FileBuff  log)$/;"	f	file:
+do_log_uptime	bootchart.c	/^do_log_uptime(FileBuff  log)$/;"	f	file:
+do_loglevel	builtins.c	/^int do_loglevel(int nargs, char **args) {$/;"	f
+do_mkdir	builtins.c	/^int do_mkdir(int nargs, char **args)$/;"	f
+do_mount	builtins.c	/^int do_mount(int nargs, char **args)$/;"	f
+do_mount_all	builtins.c	/^int do_mount_all(int nargs, char **args)$/;"	f
+do_powerctl	builtins.c	/^int do_powerctl(int nargs, char **args)$/;"	f
+do_restart	builtins.c	/^int do_restart(int nargs, char **args)$/;"	f
+do_restorecon	builtins.c	/^int do_restorecon(int nargs, char **args) {$/;"	f
+do_restorecon_recursive	builtins.c	/^int do_restorecon_recursive(int nargs, char **args) {$/;"	f
+do_rm	builtins.c	/^int do_rm(int nargs, char **args)$/;"	f
+do_rmdir	builtins.c	/^int do_rmdir(int nargs, char **args)$/;"	f
+do_setcon	builtins.c	/^int do_setcon(int nargs, char **args) {$/;"	f
+do_setenforce	builtins.c	/^int do_setenforce(int nargs, char **args) {$/;"	f
+do_setkey	builtins.c	/^int do_setkey(int nargs, char **args)$/;"	f
+do_setprop	builtins.c	/^int do_setprop(int nargs, char **args)$/;"	f
+do_setrlimit	builtins.c	/^int do_setrlimit(int nargs, char **args)$/;"	f
+do_setsebool	builtins.c	/^int do_setsebool(int nargs, char **args) {$/;"	f
+do_start	builtins.c	/^int do_start(int nargs, char **args)$/;"	f
+do_stop	builtins.c	/^int do_stop(int nargs, char **args)$/;"	f
+do_swapon_all	builtins.c	/^int do_swapon_all(int nargs, char **args)$/;"	f
+do_symlink	builtins.c	/^int do_symlink(int nargs, char **args)$/;"	f
+do_sysclktz	builtins.c	/^int do_sysclktz(int nargs, char **args)$/;"	f
+do_trigger	builtins.c	/^int do_trigger(int nargs, char **args)$/;"	f
+do_wait	builtins.c	/^int do_wait(int nargs, char **args)$/;"	f
+do_write	builtins.c	/^int do_write(int nargs, char **args)$/;"	f
+dp	devices.c	/^    struct perms_ dp;$/;"	m	struct:perm_node	typeref:struct:perm_node::perms_	file:
+envvars	init.h	/^    struct svcenvinfo *envvars;$/;"	m	struct:service	typeref:struct:service::svcenvinfo
+execute_one_command	init.c	/^void execute_one_command(void)$/;"	f
+expand_props	init_parser.c	/^int expand_props(char *dst, const char *src, int dst_size)$/;"	f
+export_kernel_boot_props	init.c	/^static void export_kernel_boot_props(void)$/;"	f	file:
+fd	bootchart.c	/^    int   fd;$/;"	m	struct:__anon1	file:
+fd	property_service.c	/^    int fd;$/;"	m	struct:__anon5	file:
+file_buff_done	bootchart.c	/^file_buff_done( FileBuff  buff )$/;"	f	file:
+file_buff_open	bootchart.c	/^file_buff_open( FileBuff  buff, const char*  path )$/;"	f	file:
+file_buff_write	bootchart.c	/^file_buff_write( FileBuff  buff, const void*  src, int  len )$/;"	f	file:
+filename	init.h	/^    const char *filename;$/;"	m	struct:command
+filename	init_parser.c	/^    const char *filename;$/;"	m	struct:import	file:
+filename	parser.h	/^    const char *filename;$/;"	m	struct:parse_state
+find_mtd_partitions	util.c	/^static void find_mtd_partitions(void)$/;"	f	file:
+find_pci_device_prefix	devices.c	/^static int find_pci_device_prefix(const char *path, char *buf, ssize_t buf_sz)$/;"	f	file:
+find_platform_device	devices.c	/^static struct platform_node *find_platform_device(const char *path)$/;"	f	file:
+firmware	devices.c	/^    const char *firmware;$/;"	m	struct:uevent	file:
+fixup_sys_perms	devices.c	/^void fixup_sys_perms(const char *upath)$/;"	f
+flag	builtins.c	/^    unsigned flag;$/;"	m	struct:__anon9	file:
+flags	init.h	/^    unsigned flags;$/;"	m	struct:service
+flags	init_parser.c	/^    unsigned char flags;$/;"	m	struct:__anon4	file:
+flags	ueventd_parser.c	/^    unsigned char flags;$/;"	m	struct:__anon6	file:
+func	init.h	/^    int (*func)(int nargs, char **args);$/;"	m	struct:command
+func	init_parser.c	/^    int (*func)(int nargs, char **args);$/;"	m	struct:__anon4	file:
+g_total_mem	init_mem_opt.c	/^int g_total_mem = 0; \/* unit: MB *\/$/;"	v
+get_android_id	ueventd.c	/^static int get_android_id(const char *id)$/;"	f	file:
+get_block_device_symlinks	devices.c	/^static char **get_block_device_symlinks(struct uevent *uevent)$/;"	f	file:
+get_character_device_symlinks	devices.c	/^static char **get_character_device_symlinks(struct uevent *uevent)$/;"	f	file:
+get_chip_id	init.c	/^static int get_chip_id(char *buf, size_t size)$/;"	f	file:
+get_device_fd	devices.c	/^int get_device_fd()$/;"	f
+get_device_perm	devices.c	/^static mode_t get_device_perm(const char *path, const char **links,$/;"	f	file:
+get_dram_size	init_mem_opt.c	/^static int get_dram_size(void)$/;"	f	file:
+get_first_command	init.c	/^static struct command *get_first_command(struct action *act)$/;"	f	file:
+get_hardware_name	util.c	/^void get_hardware_name(char *hardware, unsigned int *revision)$/;"	f
+get_keychord_fd	keychords.c	/^int get_keychord_fd()$/;"	f
+get_lcd_resolution	init_mem_opt.c	/^static bool get_lcd_resolution(int *width, int *height)$/;"	f	file:
+get_mode	builtins.c	/^static mode_t get_mode(const char *s) {$/;"	f	file:
+get_next_command	init.c	/^static struct command *get_next_command(struct action *act, struct command *cmd)$/;"	f	file:
+get_property_set_fd	property_service.c	/^int get_property_set_fd()$/;"	f
+get_property_workspace	property_service.c	/^void get_property_workspace(int *fd, int *sz)$/;"	f
+get_signal_fd	signal_handler.c	/^int get_signal_fd()$/;"	f
+get_usecs	devices.c	/^static inline suseconds_t get_usecs(void)$/;"	f	file:
+get_usecs	devices.c	384;"	d	file:
+get_value_for_key	init_mem_opt.c	/^bool get_value_for_key(char *main_key, char *sub_key, char ret_value[], int len)$/;"	f
+gettime	util.c	/^time_t gettime(void)$/;"	f
+gid	devices.c	/^    unsigned int gid;$/;"	m	struct:perms_	file:
+gid	init.h	/^    gid_t gid;$/;"	m	struct:service
+gid	init.h	/^    gid_t gid;$/;"	m	struct:socketinfo
+handle_block_device_event	devices.c	/^static void handle_block_device_event(struct uevent *uevent)$/;"	f	file:
+handle_control_message	init.c	/^void handle_control_message(const char *msg, const char *arg)$/;"	f
+handle_device	devices.c	/^static void handle_device(const char *action, const char *devpath,$/;"	f	file:
+handle_device_event	devices.c	/^static void handle_device_event(struct uevent *uevent)$/;"	f	file:
+handle_device_fd	devices.c	/^void handle_device_fd()$/;"	f
+handle_firmware_event	devices.c	/^static void handle_firmware_event(struct uevent *uevent)$/;"	f	file:
+handle_generic_device_event	devices.c	/^static void handle_generic_device_event(struct uevent *uevent)$/;"	f	file:
+handle_keychord	keychords.c	/^void handle_keychord()$/;"	f
+handle_platform_device_event	devices.c	/^static void handle_platform_device_event(struct uevent *uevent)$/;"	f	file:
+handle_property_set_fd	property_service.c	/^void handle_property_set_fd()$/;"	f
+handle_signal	signal_handler.c	/^void handle_signal(void)$/;"	f
+hardware	init.c	/^static char hardware[32];$/;"	v	file:
+hardware	ueventd.c	/^static char hardware[32];$/;"	v	file:
+hash	init.h	/^    unsigned hash;$/;"	m	struct:action
+have_console	init.c	/^static int have_console;$/;"	v	file:
+import	init_parser.c	/^struct import {$/;"	s	file:
+import_kernel_cmdline	util.c	/^void import_kernel_cmdline(int in_qemu,$/;"	f
+import_kernel_nv	init.c	/^static void import_kernel_nv(char *name, int for_emulator)$/;"	f	file:
+import_kernel_nv	ueventd.c	/^static void import_kernel_nv(char *name, int in_qemu)$/;"	f	file:
+init_parse_config_file	init_parser.c	/^int init_parse_config_file(const char *fn)$/;"	f
+init_property_area	property_service.c	/^static int init_property_area(void)$/;"	f	file:
+init_workspace	property_service.c	/^static int init_workspace(workspace *w, size_t size)$/;"	f	file:
+insmod	builtins.c	/^static int insmod(const char *filename, char *options)$/;"	f	file:
+ioprio_class	init.h	/^    int ioprio_class;$/;"	m	struct:service
+ioprio_pri	init.h	/^    int ioprio_pri;$/;"	m	struct:service
+is_booting	devices.c	/^static int is_booting(void)$/;"	f	file:
+is_last_command	init.c	/^static int is_last_command(struct action *act, struct command *cmd)$/;"	f	file:
+is_legal_property_name	property_service.c	/^static bool is_legal_property_name(const char* name, size_t namelen)$/;"	f	file:
+kernel_logger	devices.c	/^static inline void __attribute__((__deprecated__)) kernel_logger()$/;"	f	file:
+keychord_fd	keychords.c	/^static int keychord_fd = -1;$/;"	v	file:
+keychord_id	init.h	/^    int keychord_id;$/;"	m	struct:service
+keychord_init	keychords.c	/^void keychord_init()$/;"	f
+keychord_init_action	init.c	/^static int keychord_init_action(int nargs, char **args)$/;"	f	file:
+keychords	keychords.c	/^static struct input_keychord *keychords = 0;$/;"	v	typeref:struct:input_keychord	file:
+keychords_count	keychords.c	/^static int keychords_count = 0;$/;"	v	file:
+keychords_length	keychords.c	/^static int keychords_length = 0;$/;"	v	file:
+keycodes	init.h	/^    int *keycodes;$/;"	m	struct:service
+keyword_info	init_parser.c	/^} keyword_info[KEYWORD_COUNT] = {$/;"	v	typeref:struct:__anon4	file:
+keyword_info	ueventd_parser.c	/^} keyword_info[KEYWORD_COUNT] = {$/;"	v	typeref:struct:__anon6	file:
+kw_func	init_parser.c	73;"	d	file:
+kw_is	init_parser.c	71;"	d	file:
+kw_is	ueventd_parser.c	53;"	d	file:
+kw_name	init_parser.c	72;"	d	file:
+kw_nargs	init_parser.c	74;"	d	file:
+kw_nargs	ueventd_parser.c	54;"	d	file:
+line	init.h	/^    int line;$/;"	m	struct:command
+line	parser.h	/^    int line;$/;"	m	struct:parse_state
+list	devices.c	/^    struct listnode list;$/;"	m	struct:platform_node	typeref:struct:platform_node::listnode	file:
+list	init_parser.c	/^    struct listnode list;$/;"	m	struct:import	typeref:struct:import::listnode	file:
+load_all_props	property_service.c	/^void load_all_props(void)$/;"	f
+load_firmware	devices.c	/^static int load_firmware(int fw_fd, int loading_fd, int data_fd)$/;"	f	file:
+load_override_properties	property_service.c	/^static void load_override_properties() {$/;"	f	file:
+load_persist_props	property_service.c	/^void load_persist_props(void)$/;"	f
+load_persistent_properties	property_service.c	/^static void load_persistent_properties()$/;"	f	file:
+load_properties	property_service.c	/^static void load_properties(char *data, const char *filter)$/;"	f	file:
+load_properties_from_file	property_service.c	/^static void load_properties_from_file(const char *fn, const char *filter)$/;"	f	file:
+log_callback	init.c	/^int log_callback(int type, const char *fmt, ...)$/;"	f
+log_disks	bootchart.c	/^static FileBuffRec  log_disks[1];$/;"	v	file:
+log_event_print	devices.c	379;"	d	file:
+log_event_print	devices.c	383;"	d	file:
+log_header	bootchart.c	/^log_header(void)$/;"	f	file:
+log_procs	bootchart.c	/^static FileBuffRec  log_procs[1];$/;"	v	file:
+log_stat	bootchart.c	/^static FileBuffRec  log_stat[1];$/;"	v	file:
+lookup_keyword	init_parser.c	/^static int lookup_keyword(const char *s)$/;"	f	file:
+lookup_keyword	ueventd_parser.c	/^static int lookup_keyword(const char *s)$/;"	f	file:
+main	init.c	/^int main(int argc, char **argv)$/;"	f
+major	devices.c	/^    int major;$/;"	m	struct:uevent	file:
+make_device	devices.c	/^static void make_device(const char *path,$/;"	f	file:
+make_dir	util.c	/^int make_dir(const char *path, mode_t mode)$/;"	f
+make_link	util.c	/^void make_link(const char *oldpath, const char *newpath)$/;"	f
+minor	devices.c	/^    int minor;$/;"	m	struct:uevent	file:
+mix_hwrng_into_linux_rng_action	init.c	/^static int mix_hwrng_into_linux_rng_action(int nargs, char **args)$/;"	f	file:
+mkdir_recursive	util.c	/^int mkdir_recursive(const char *pathname, mode_t mode)$/;"	f
+mkdir_recursive_for_devpath	devices.c	/^static void mkdir_recursive_for_devpath(const char *devpath)$/;"	f	file:
+mount_flags	builtins.c	/^} mount_flags[] = {$/;"	v	typeref:struct:__anon9	file:
+msg_restart	init.c	/^static void msg_restart(const char *name)$/;"	f	file:
+msg_start	init.c	/^static void msg_start(const char *name)$/;"	f	file:
+msg_stop	init.c	/^static void msg_stop(const char *name)$/;"	f	file:
+mtd_name_to_number	util.c	/^int mtd_name_to_number(const char *name)$/;"	f
+mtd_part_count	util.c	/^static int mtd_part_count = -1;$/;"	v	file:
+mtd_part_map	util.c	/^} mtd_part_map[MAX_MTD_PARTITIONS];$/;"	v	typeref:struct:__anon7	file:
+name	builtins.c	/^    const char *name;$/;"	m	struct:__anon9	file:
+name	devices.c	/^    char *name;$/;"	m	struct:perms_	file:
+name	devices.c	/^    char *name;$/;"	m	struct:platform_node	file:
+name	init.h	/^    const char *name;$/;"	m	struct:action
+name	init.h	/^    const char *name;$/;"	m	struct:service
+name	init.h	/^    const char *name;$/;"	m	struct:socketinfo
+name	init.h	/^    const char *name;$/;"	m	struct:svcenvinfo
+name	init_parser.c	/^    const char *name;$/;"	m	struct:__anon4	file:
+name	ueventd.h	/^    const char *name;$/;"	m	struct:ueventd_subsystem
+name	ueventd_parser.c	/^    const char *name;$/;"	m	struct:__anon6	file:
+name	util.c	/^    char name[16];$/;"	m	struct:__anon7	file:
+nargs	init.h	/^    int nargs;$/;"	m	struct:command
+nargs	init.h	/^    int nargs;$/;"	m	struct:service
+nargs	init_parser.c	/^    unsigned char nargs;$/;"	m	struct:__anon4	file:
+nargs	ueventd_parser.c	/^    unsigned char nargs;$/;"	m	struct:__anon6	file:
+next	init.h	/^    struct socketinfo *next;$/;"	m	struct:socketinfo	typeref:struct:socketinfo::socketinfo
+next	init.h	/^    struct svcenvinfo *next;$/;"	m	struct:svcenvinfo	typeref:struct:svcenvinfo::svcenvinfo
+next_token	parser.c	/^int next_token(struct parse_state *state)$/;"	f
+nexttoken	parser.h	/^    int nexttoken;$/;"	m	struct:parse_state
+nkeycodes	init.h	/^    int nkeycodes;$/;"	m	struct:service
+notify_service_state	init.c	/^void notify_service_state(const char *name, const char *state)$/;"	f
+nr_crashed	init.h	/^    int nr_crashed;         \/* number of times crashed within window *\/$/;"	m	struct:service
+nr_supp_gids	init.h	/^    size_t nr_supp_gids;$/;"	m	struct:service
+number	util.c	/^    int number;$/;"	m	struct:__anon7	file:
+onrestart	init.h	/^    struct action onrestart;  \/* Actions to execute on restart. *\/$/;"	m	struct:service	typeref:struct:service::action
+open_console	init.c	/^static void open_console()$/;"	f	file:
+open_devnull_stdio	util.c	/^void open_devnull_stdio(void)$/;"	f
+open_log_file	bootchart.c	/^open_log_file(int*  plogfd, const char*  logfile)$/;"	f	file:
+pa_workspace	property_service.c	/^static workspace pa_workspace;$/;"	v	file:
+parse_action	init_parser.c	/^static void *parse_action(struct parse_state *state, int nargs, char **args)$/;"	f	file:
+parse_config	init_parser.c	/^static void parse_config(const char *fn, char *s)$/;"	f	file:
+parse_config	ueventd_parser.c	/^static void parse_config(const char *fn, char *s)$/;"	f	file:
+parse_device_name	devices.c	/^static const char *parse_device_name(struct uevent *uevent, unsigned int len)$/;"	f	file:
+parse_error	parser.c	/^void parse_error(struct parse_state *state, const char *fmt, ...)$/;"	f
+parse_event	devices.c	/^static void parse_event(const char *msg, struct uevent *uevent)$/;"	f	file:
+parse_import	init_parser.c	/^static void parse_import(struct parse_state *state, int nargs, char **args)$/;"	f	file:
+parse_line	parser.h	/^    void (*parse_line)(struct parse_state *state, int nargs, char **args);$/;"	m	struct:parse_state
+parse_line	ueventd_parser.c	/^static void parse_line(struct parse_state *state, char **args, int nargs)$/;"	f	file:
+parse_line_action	init_parser.c	/^static void parse_line_action(struct parse_state* state, int nargs, char **args)$/;"	f	file:
+parse_line_device	ueventd_parser.c	/^static void parse_line_device(struct parse_state *state __attribute__((unused)),$/;"	f	file:
+parse_line_no_op	init_parser.c	/^static void parse_line_no_op(struct parse_state *state, int nargs, char **args)$/;"	f	file:
+parse_line_no_op	ueventd_parser.c	/^static void parse_line_no_op(struct parse_state *state __attribute__((unused)),$/;"	f	file:
+parse_line_service	init_parser.c	/^static void parse_line_service(struct parse_state *state, int nargs, char **args)$/;"	f	file:
+parse_line_subsystem	ueventd_parser.c	/^static void parse_line_subsystem(struct parse_state *state, int nargs,$/;"	f	file:
+parse_new_section	init_parser.c	/^static void parse_new_section(struct parse_state *state, int kw,$/;"	f	file:
+parse_new_section	ueventd_parser.c	/^static void parse_new_section(struct parse_state *state, int kw,$/;"	f	file:
+parse_service	init_parser.c	/^static void *parse_service(struct parse_state *state, int nargs, char **args)$/;"	f	file:
+parse_state	parser.h	/^struct parse_state$/;"	s
+parse_subsystem	ueventd_parser.c	/^static void *parse_subsystem(struct parse_state *state,$/;"	f	file:
+partition_name	devices.c	/^    const char *partition_name;$/;"	m	struct:uevent	file:
+partition_num	devices.c	/^    int partition_num;$/;"	m	struct:uevent	file:
+path	devices.c	/^    char *path;$/;"	m	struct:platform_node	file:
+path	devices.c	/^    const char *path;$/;"	m	struct:uevent	file:
+path_len	devices.c	/^    int path_len;$/;"	m	struct:platform_node	file:
+perm	devices.c	/^    mode_t perm;$/;"	m	struct:perms_	file:
+perm	init.h	/^    int perm;$/;"	m	struct:socketinfo
+perm_node	devices.c	/^struct perm_node {$/;"	s	file:
+perm_path_matches	devices.c	/^static bool perm_path_matches(const char *path, struct perms_ *dp)$/;"	f	file:
+perms_	devices.c	/^struct perms_ {$/;"	s	file:
+persistent_properties_loaded	property_service.c	/^static int persistent_properties_loaded = 0;$/;"	v	file:
+pid	init.h	/^    pid_t pid;$/;"	m	struct:service
+platform_node	devices.c	/^struct platform_node {$/;"	s	file:
+plist	devices.c	/^    struct listnode plist;$/;"	m	struct:perm_node	typeref:struct:perm_node::listnode	file:
+prefix	devices.c	/^    unsigned short prefix;$/;"	m	struct:perms_	file:
+priv	parser.h	/^    void *priv;$/;"	m	struct:parse_state
+proc_read	bootchart.c	/^proc_read(const char*  filename, char* buff, size_t  buffsize)$/;"	f	file:
+process_firmware_event	devices.c	/^static void process_firmware_event(struct uevent *uevent)$/;"	f	file:
+process_kernel_cmdline	init.c	/^static void process_kernel_cmdline(void)$/;"	f	file:
+process_needs_restart	init.c	/^static time_t process_needs_restart;$/;"	v	file:
+properties_inited	property_service.c	/^int properties_inited(void)$/;"	f
+property_area_inited	property_service.c	/^static int property_area_inited = 0;$/;"	v	file:
+property_changed	init.c	/^void property_changed(const char *name, const char *value)$/;"	f
+property_get	property_service.h	/^int property_get(const char *name, char *value)$/;"	f
+property_init	property_service.c	/^void property_init(void)$/;"	f
+property_load_boot_defaults	property_service.c	/^void property_load_boot_defaults(void)$/;"	f
+property_opt_for_mem	init_mem_opt.c	/^void property_opt_for_mem(void)$/;"	f
+property_service_init_action	init.c	/^static int property_service_init_action(int nargs, char **args)$/;"	f	file:
+property_set	property_service.c	/^int property_set(const char *name, const char *value)$/;"	f
+property_set_fd	property_service.c	/^static int property_set_fd = -1;$/;"	v	file:
+property_triggers_enabled	init.c	/^static int property_triggers_enabled = 0;$/;"	v	file:
+ptr	parser.h	/^    char *ptr;$/;"	m	struct:parse_state
+publish_socket	init.c	/^static void publish_socket(const char *name, int fd)$/;"	f	file:
+push_chars	init_parser.c	/^static int push_chars(char **dst, int *len, const char *chars, int cnt)$/;"	f	file:
+qemu	init.c	/^static char qemu[32];$/;"	v	file:
+qlist	init.h	/^    struct listnode qlist;$/;"	m	struct:action	typeref:struct:action::listnode
+queue_all_property_triggers	init_parser.c	/^void queue_all_property_triggers()$/;"	f
+queue_builtin_action	init_parser.c	/^void queue_builtin_action(int (*func)(int nargs, char **args), char *name)$/;"	f
+queue_property_triggers	init_parser.c	/^void queue_property_triggers(const char *name, const char *value)$/;"	f
+queue_property_triggers_action	init.c	/^static int queue_property_triggers_action(int nargs, char **args)$/;"	f	file:
+read_file	util.c	/^void *read_file(const char *fn, unsigned *_sz)$/;"	f
+remove_link	util.c	/^void remove_link(const char *oldpath, const char *newpath)$/;"	f
+remove_platform_device	devices.c	/^static void remove_platform_device(const char *path)$/;"	f	file:
+restart_processes	init.c	/^static void restart_processes()$/;"	f	file:
+restart_service_if_needed	init.c	/^static void restart_service_if_needed(struct service *svc)$/;"	f	file:
+restorecon	util.c	/^int restorecon(const char* pathname)$/;"	f
+restorecon_recursive	util.c	/^int restorecon_recursive(const char* pathname)$/;"	f
+revision	init.c	/^static unsigned revision = 0;$/;"	v	file:
+revision	ueventd.c	/^static unsigned revision = 0;$/;"	v	file:
+roomage_a15	boostup.c	/^const char *roomage_a15[] = {$/;"	v
+roomage_a7	boostup.c	/^const char *roomage_a7[] = {$/;"	v
+runmode	boostup.c	/^static int runmode = 0xa7;$/;"	v	file:
+runmode	property_service.c	/^static unsigned int runmode = 0xa7; \/* 0xa7: CPU0-A7, 0xa15: CPU0-A15 *\/$/;"	v	file:
+sanitize	util.c	/^void sanitize(char *s)$/;"	f
+seclabel	init.h	/^    char *seclabel;$/;"	m	struct:service
+sehandle	init.c	/^struct selabel_handle *sehandle;$/;"	v	typeref:struct:selabel_handle
+sehandle_prop	init.c	/^struct selabel_handle *sehandle_prop;$/;"	v	typeref:struct:selabel_handle
+selinux_android_prop_context_handle	init.c	/^struct selabel_handle* selinux_android_prop_context_handle(void)$/;"	f
+selinux_init_all_handles	init.c	/^void selinux_init_all_handles(void)$/;"	f
+selinux_initialize	init.c	/^static void selinux_initialize(void)$/;"	f	file:
+selinux_is_disabled	init.c	/^static bool selinux_is_disabled(void)$/;"	f	file:
+selinux_is_enforcing	init.c	/^static bool selinux_is_enforcing(void)$/;"	f	file:
+selinux_reload_policy	init.c	/^int selinux_reload_policy(void)$/;"	f
+seopts_prop	init.c	/^static const struct selinux_opt seopts_prop[] = {$/;"	v	typeref:struct:selinux_opt	file:
+service	init.h	/^struct service {$/;"	s
+service_find_by_keychord	init_parser.c	/^struct service *service_find_by_keychord(int keychord_id)$/;"	f
+service_find_by_name	init_parser.c	/^struct service *service_find_by_name(const char *name)$/;"	f
+service_find_by_pid	init_parser.c	/^struct service *service_find_by_pid(pid_t pid)$/;"	f
+service_for_each	init_parser.c	/^void service_for_each(void (*func)(struct service *svc))$/;"	f
+service_for_each_class	init_parser.c	/^void service_for_each_class(const char *classname,$/;"	f
+service_for_each_flags	init_parser.c	/^void service_for_each_flags(unsigned matchflags,$/;"	f
+service_reset	init.c	/^void service_reset(struct service *svc)$/;"	f
+service_restart	init.c	/^void service_restart(struct service *svc)$/;"	f
+service_start	init.c	/^void service_start(struct service *svc, const char *dynamic_args)$/;"	f
+service_start_if_not_disabled	builtins.c	/^static void service_start_if_not_disabled(struct service *svc)$/;"	f	file:
+service_stop	init.c	/^void service_stop(struct service *svc)$/;"	f
+service_stop_or_reset	init.c	/^static void service_stop_or_reset(struct service *svc, int how)$/;"	f	file:
+set_device_permission	ueventd.c	/^void set_device_permission(int nargs, char **args)$/;"	f
+setkey	builtins.c	/^static int setkey(struct kbentry *kbe)$/;"	f	file:
+sigchld_handler	signal_handler.c	/^static void sigchld_handler(int s)$/;"	f	file:
+signal_fd	signal_handler.c	/^static int signal_fd = -1;$/;"	v	file:
+signal_init	signal_handler.c	/^void signal_init(void)$/;"	f
+signal_init_action	init.c	/^static int signal_init_action(int nargs, char **args)$/;"	f	file:
+signal_recv_fd	signal_handler.c	/^static int signal_recv_fd = -1;$/;"	v	file:
+size	property_service.c	/^    size_t size;$/;"	m	struct:__anon5	file:
+slist	init.h	/^    struct listnode slist;$/;"	m	struct:service	typeref:struct:service::listnode
+slist	ueventd.h	/^    struct listnode slist;$/;"	m	struct:ueventd_subsystem	typeref:struct:ueventd_subsystem::listnode
+socketcon	init.h	/^    const char *socketcon;$/;"	m	struct:socketinfo
+socketinfo	init.h	/^struct socketinfo {$/;"	s
+sockets	init.h	/^    struct socketinfo *sockets;$/;"	m	struct:service	typeref:struct:service::socketinfo
+start_property_service	property_service.c	/^void start_property_service(void)$/;"	f
+subsystem	devices.c	/^    const char *subsystem;$/;"	m	struct:uevent	file:
+supp_gids	init.h	/^    gid_t supp_gids[NR_SVC_SUPP_GIDS];$/;"	m	struct:service
+svcenvinfo	init.h	/^struct svcenvinfo {$/;"	s
+text	parser.h	/^    char *text;$/;"	m	struct:parse_state
+time_crashed	init.h	/^    time_t time_crashed;    \/* first crash within inspection window *\/$/;"	m	struct:service
+time_started	init.h	/^    time_t time_started;    \/* time of last start *\/$/;"	m	struct:service
+tlist	init.h	/^    struct listnode tlist;$/;"	m	struct:action	typeref:struct:action::listnode
+trim	init_mem_opt.c	/^inline void trim(char *buf)$/;"	f
+type	init.h	/^    const char *type;$/;"	m	struct:socketinfo
+uevent	devices.c	/^struct uevent {$/;"	s	file:
+ueventd_main	ueventd.c	/^int ueventd_main(int argc, char **argv)$/;"	f
+ueventd_parse_config_file	ueventd_parser.c	/^int ueventd_parse_config_file(const char *fn)$/;"	f
+ueventd_subsystem	ueventd.h	/^struct ueventd_subsystem {$/;"	s
+ueventd_subsystem_find_by_name	ueventd_parser.c	/^struct ueventd_subsystem *ueventd_subsystem_find_by_name(const char *name)$/;"	f
+uid	devices.c	/^    unsigned int uid;$/;"	m	struct:perms_	file:
+uid	init.h	/^    uid_t uid;$/;"	m	struct:service
+uid	init.h	/^    uid_t uid;$/;"	m	struct:socketinfo
+unix_read	bootchart.c	/^unix_read(int  fd, void*  buff, int  len)$/;"	f	file:
+unix_write	bootchart.c	/^unix_write(int  fd, const void*  buff, int  len)$/;"	f	file:
+valid_name	init_parser.c	/^static int valid_name(const char *name)$/;"	f	file:
+valid_name	ueventd_parser.c	/^static int valid_name(const char *name)$/;"	f	file:
+value	init.h	/^    const char *value;$/;"	m	struct:svcenvinfo
+wait_for_coldboot_done_action	init.c	/^static int wait_for_coldboot_done_action(int nargs, char **args)$/;"	f	file:
+wait_for_file	util.c	/^int wait_for_file(const char *filename, int timeout)$/;"	f
+wait_for_one_process	signal_handler.c	/^static int wait_for_one_process(int block)$/;"	f	file:
+watchdogd_main	watchdogd.c	/^int watchdogd_main(int argc, char **argv)$/;"	f
+wildcard	devices.c	/^    unsigned short wildcard;$/;"	m	struct:perms_	file:
+wipe_data_via_recovery	builtins.c	/^static int wipe_data_via_recovery()$/;"	f	file:
+workspace	property_service.c	/^} workspace;$/;"	t	typeref:struct:__anon5	file:
+write_file	builtins.c	/^static int write_file(const char *path, const char *value)$/;"	f	file:
+write_persistent_property	property_service.c	/^static void write_persistent_property(const char *name, const char *value)$/;"	f	file:
+zap_stdio	init.c	/^static void zap_stdio(void)$/;"	f	file:
