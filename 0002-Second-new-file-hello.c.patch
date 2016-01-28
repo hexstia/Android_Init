@@ -1,0 +1,22 @@
+From 4821dacdff829edadd67116de59e3e6abfe233ff Mon Sep 17 00:00:00 2001
+From: Neil Hexstia <wangyz@farsight>
+Date: Thu, 28 Jan 2016 16:11:52 +0800
+Subject: [PATCH 2/2] Second new file hello.c
+
+o add hello.c
+
+diff --git a/hello.c b/hello.c
+new file mode 100644
+index 0000000..71388c6
+--- /dev/null
++++ b/hello.c
+@@ -0,0 +1,6 @@
++#include <stdio.h>
++int main(int argc, const char *argv[])
++{
++	
++	return 0;
++}
+-- 
+1.9.1
+
